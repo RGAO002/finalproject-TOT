@@ -1,0 +1,403 @@
+[2019-03-21T18:53:53,554][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] using [1] data paths, mounts [[(C:)]], net usable_space [132.8gb], net total_space [221.7gb], types [NTFS]
+[2019-03-21T18:53:53,581][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-03-21T18:53:53,587][INFO ][o.e.n.Node               ] [IhcTduS] node name derived from node ID [IhcTduSrSJKx1vvc-CmtrQ]; set [node.name] to override
+[2019-03-21T18:53:53,587][INFO ][o.e.n.Node               ] [IhcTduS] version[6.6.2], pid[6776], build[default/zip/3bd3e59/2019-03-06T15:16:26.864148Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12/12+33]
+[2019-03-21T18:53:53,588][INFO ][o.e.n.Node               ] [IhcTduS] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\elasticsearch-6.6.2, -Des.path.conf=C:\elasticsearch-6.6.2\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [aggs-matrix-stats]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [analysis-common]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [ingest-common]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-expression]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-mustache]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-painless]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [mapper-extras]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [parent-join]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [percolator]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [rank-eval]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [reindex]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [repository-url]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [transport-netty4]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [tribe]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ccr]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-core]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-deprecation]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-graph]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ilm]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-logstash]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ml]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-monitoring]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-rollup]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-security]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-sql]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-upgrade]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-watcher]
+[2019-03-21T18:53:55,356][INFO ][o.e.p.PluginsService     ] [IhcTduS] no plugins loaded
+[2019-03-21T18:53:58,744][INFO ][o.e.x.s.a.s.FileRolesStore] [IhcTduS] parsed [0] roles from file [C:\elasticsearch-6.6.2\config\roles.yml]
+[2019-03-21T18:53:59,323][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/9248] [Main.cc@109] controller (64 bit): Version 6.6.2 (Build 62531230b275d3) Copyright (c) 2019 Elasticsearch BV
+[2019-03-21T18:53:59,682][DEBUG][o.e.a.ActionModule       ] [IhcTduS] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-21T18:53:59,885][INFO ][o.e.d.DiscoveryModule    ] [IhcTduS] using discovery type [zen] and host providers [settings]
+[2019-03-21T18:54:00,458][INFO ][o.e.n.Node               ] [IhcTduS] initialized
+[2019-03-21T18:54:00,458][INFO ][o.e.n.Node               ] [IhcTduS] starting ...
+[2019-03-21T18:54:01,244][INFO ][o.e.t.TransportService   ] [IhcTduS] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-21T18:54:04,338][INFO ][o.e.c.s.MasterService    ] [IhcTduS] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{nc8sQFGfSziL3HV7PAkWFA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-21T18:54:04,338][INFO ][o.e.c.s.ClusterApplierService] [IhcTduS] new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{nc8sQFGfSziL3HV7PAkWFA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{nc8sQFGfSziL3HV7PAkWFA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-21T18:54:04,620][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [IhcTduS] Failed to clear cache for realms [[]]
+[2019-03-21T18:54:04,666][INFO ][o.e.l.LicenseService     ] [IhcTduS] license [3dc21ed4-0d75-4129-9751-c4c44e55b6a7] mode [basic] - valid
+[2019-03-21T18:54:04,682][INFO ][o.e.g.GatewayService     ] [IhcTduS] recovered [0] indices into cluster_state
+[2019-03-21T18:54:04,932][INFO ][o.e.h.n.Netty4HttpServerTransport] [IhcTduS] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-21T18:54:04,932][INFO ][o.e.n.Node               ] [IhcTduS] started
+[2019-03-21T18:56:47,691][INFO ][o.e.c.m.MetaDataCreateIndexService] [IhcTduS] [twitter] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-21T18:56:49,019][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] create_mapping [tweet]
+[2019-03-21T18:56:49,253][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:49,394][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:49,519][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:49,738][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:49,941][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:50,472][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:50,691][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:52,472][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:53,385][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:56:53,479][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:09,621][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:12,076][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:26,053][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:32,283][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:33,924][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:36,596][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:48,752][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:57:55,080][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] update_mapping [tweet]
+[2019-03-21T18:58:13,610][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [IhcTduS] failed to put mappings on indices [[[twitter/-TfmyFz7Tby2GusY6vJTOw]]], type [tweet]
+java.lang.IllegalArgumentException: Limit of total fields [1000] in index [twitter] has been exceeded
+	at org.elasticsearch.index.mapper.MapperService.checkTotalFieldsLimit(MapperService.java:638) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:519) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:402) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:337) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:314) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:272) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:202) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:137) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:660) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.6.2.jar:6.6.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2019-03-21T18:58:13,641][DEBUG][o.e.a.b.TransportShardBulkAction] [IhcTduS] [twitter][1] failed to execute bulk item (index) index {[twitter][tweet][1892], source[n/a, actual length: [7kb], max length: 2kb]}
+java.lang.IllegalArgumentException: Limit of total fields [1000] in index [twitter] has been exceeded
+	at org.elasticsearch.index.mapper.MapperService.checkTotalFieldsLimit(MapperService.java:638) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:519) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:402) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:337) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:314) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:272) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:202) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:137) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:660) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2019-03-21T19:25:16,380][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] using [1] data paths, mounts [[(C:)]], net usable_space [132.6gb], net total_space [221.7gb], types [NTFS]
+[2019-03-21T19:25:16,383][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-03-21T19:25:16,426][INFO ][o.e.n.Node               ] [IhcTduS] node name derived from node ID [IhcTduSrSJKx1vvc-CmtrQ]; set [node.name] to override
+[2019-03-21T19:25:16,427][INFO ][o.e.n.Node               ] [IhcTduS] version[6.6.2], pid[9744], build[default/zip/3bd3e59/2019-03-06T15:16:26.864148Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12/12+33]
+[2019-03-21T19:25:16,427][INFO ][o.e.n.Node               ] [IhcTduS] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\elasticsearch-6.6.2, -Des.path.conf=C:\elasticsearch-6.6.2\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-03-21T19:25:18,195][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [aggs-matrix-stats]
+[2019-03-21T19:25:18,195][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [analysis-common]
+[2019-03-21T19:25:18,195][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [ingest-common]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-expression]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-mustache]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-painless]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [mapper-extras]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [parent-join]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [percolator]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [rank-eval]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [reindex]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [repository-url]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [transport-netty4]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [tribe]
+[2019-03-21T19:25:18,200][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ccr]
+[2019-03-21T19:25:18,203][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-core]
+[2019-03-21T19:25:18,203][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-deprecation]
+[2019-03-21T19:25:18,203][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-graph]
+[2019-03-21T19:25:18,203][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ilm]
+[2019-03-21T19:25:18,203][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-logstash]
+[2019-03-21T19:25:18,203][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ml]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-monitoring]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-rollup]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-security]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-sql]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-upgrade]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-watcher]
+[2019-03-21T19:25:18,205][INFO ][o.e.p.PluginsService     ] [IhcTduS] no plugins loaded
+[2019-03-21T19:25:22,072][INFO ][o.e.x.s.a.s.FileRolesStore] [IhcTduS] parsed [0] roles from file [C:\elasticsearch-6.6.2\config\roles.yml]
+[2019-03-21T19:25:22,571][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/2356] [Main.cc@109] controller (64 bit): Version 6.6.2 (Build 62531230b275d3) Copyright (c) 2019 Elasticsearch BV
+[2019-03-21T19:25:22,905][DEBUG][o.e.a.ActionModule       ] [IhcTduS] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-21T19:25:23,150][INFO ][o.e.d.DiscoveryModule    ] [IhcTduS] using discovery type [zen] and host providers [settings]
+[2019-03-21T19:25:23,735][INFO ][o.e.n.Node               ] [IhcTduS] initialized
+[2019-03-21T19:25:23,740][INFO ][o.e.n.Node               ] [IhcTduS] starting ...
+[2019-03-21T19:25:24,591][INFO ][o.e.t.TransportService   ] [IhcTduS] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-21T19:25:27,670][INFO ][o.e.c.s.MasterService    ] [IhcTduS] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{22IzRZ4uQiOwn4ekTk4M9g}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-21T19:25:27,680][INFO ][o.e.c.s.ClusterApplierService] [IhcTduS] new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{22IzRZ4uQiOwn4ekTk4M9g}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{22IzRZ4uQiOwn4ekTk4M9g}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-21T19:25:28,180][INFO ][o.e.h.n.Netty4HttpServerTransport] [IhcTduS] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-21T19:25:28,185][INFO ][o.e.n.Node               ] [IhcTduS] started
+[2019-03-21T19:25:28,185][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [IhcTduS] Failed to clear cache for realms [[]]
+[2019-03-21T19:25:28,220][INFO ][o.e.l.LicenseService     ] [IhcTduS] license [3dc21ed4-0d75-4129-9751-c4c44e55b6a7] mode [basic] - valid
+[2019-03-21T19:25:28,232][INFO ][o.e.g.GatewayService     ] [IhcTduS] recovered [1] indices into cluster_state
+[2019-03-21T19:25:29,880][INFO ][o.e.c.m.MetaDataDeleteIndexService] [IhcTduS] [twitter/-TfmyFz7Tby2GusY6vJTOw] deleting index
+[2019-03-21T19:25:30,720][INFO ][o.e.c.m.MetaDataCreateIndexService] [IhcTduS] [twitter] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-21T19:25:31,923][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] create_mapping [tweet]
+[2019-03-21T19:25:32,030][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:32,140][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:32,233][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:32,420][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:32,599][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:33,290][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:33,515][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:35,650][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:36,580][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:36,678][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:52,850][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:25:55,020][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:08,615][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:14,430][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:16,086][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:18,940][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:30,264][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:36,610][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] update_mapping [tweet]
+[2019-03-21T19:26:55,140][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [IhcTduS] failed to put mappings on indices [[[twitter/3ZplJIJ8QDibRp_01rKomQ]]], type [tweet]
+java.lang.IllegalArgumentException: Limit of total fields [1000] in index [twitter] has been exceeded
+	at org.elasticsearch.index.mapper.MapperService.checkTotalFieldsLimit(MapperService.java:638) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:519) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:402) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:337) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:314) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:272) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:202) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:137) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:660) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) [elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) [elasticsearch-6.6.2.jar:6.6.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2019-03-21T19:26:55,150][DEBUG][o.e.a.b.TransportShardBulkAction] [IhcTduS] [twitter][1] failed to execute bulk item (index) index {[twitter][tweet][1892], source[n/a, actual length: [7kb], max length: 2kb]}
+java.lang.IllegalArgumentException: Limit of total fields [1000] in index [twitter] has been exceeded
+	at org.elasticsearch.index.mapper.MapperService.checkTotalFieldsLimit(MapperService.java:638) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:519) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:402) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:337) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:314) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:643) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:272) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:202) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:137) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:660) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:244) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:207) ~[elasticsearch-6.6.2.jar:6.6.2]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2019-03-21T19:36:07,619][INFO ][o.e.c.m.MetaDataDeleteIndexService] [IhcTduS] [twitter/3ZplJIJ8QDibRp_01rKomQ] deleting index
+[2019-03-21T19:36:08,029][INFO ][o.e.c.m.MetaDataCreateIndexService] [IhcTduS] [twitter] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-21T19:36:09,200][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/o3PnWBbpTsWNDOuhxLzmew] create_mapping [tweet]
+[2019-03-21T19:36:09,653][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/o3PnWBbpTsWNDOuhxLzmew] update_mapping [tweet]
+[2019-03-21T19:36:09,899][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter/o3PnWBbpTsWNDOuhxLzmew] update_mapping [tweet]
+[2019-03-21T19:36:43,999][INFO ][o.e.b.Bootstrap          ] [IhcTduS] running graceful exit on windows
+[2019-03-21T19:36:43,999][INFO ][o.e.n.Node               ] [IhcTduS] stopping ...
+[2019-03-21T19:36:44,009][INFO ][o.e.x.w.WatcherService   ] [IhcTduS] stopping watch service, reason [shutdown initiated]
+[2019-03-21T19:36:44,359][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/2356] [Main.cc@148] Ml controller exiting
+[2019-03-21T19:36:44,359][INFO ][o.e.x.m.p.NativeController] [IhcTduS] Native controller process has stopped - no new native processes can be started
+[2019-03-21T19:36:45,259][INFO ][o.e.n.Node               ] [IhcTduS] stopped
+[2019-03-21T19:36:45,259][INFO ][o.e.n.Node               ] [IhcTduS] closing ...
+[2019-03-21T19:36:45,275][INFO ][o.e.n.Node               ] [IhcTduS] closed
+[2019-03-21T20:45:03,902][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] using [1] data paths, mounts [[(C:)]], net usable_space [132.1gb], net total_space [221.7gb], types [NTFS]
+[2019-03-21T20:45:03,902][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-03-21T20:45:03,949][INFO ][o.e.n.Node               ] [IhcTduS] node name derived from node ID [IhcTduSrSJKx1vvc-CmtrQ]; set [node.name] to override
+[2019-03-21T20:45:03,949][INFO ][o.e.n.Node               ] [IhcTduS] version[6.6.2], pid[7204], build[default/zip/3bd3e59/2019-03-06T15:16:26.864148Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12/12+33]
+[2019-03-21T20:45:03,949][INFO ][o.e.n.Node               ] [IhcTduS] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\elasticsearch-6.6.2, -Des.path.conf=C:\elasticsearch-6.6.2\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-03-21T20:45:05,687][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [aggs-matrix-stats]
+[2019-03-21T20:45:05,688][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [analysis-common]
+[2019-03-21T20:45:05,688][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [ingest-common]
+[2019-03-21T20:45:05,688][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-expression]
+[2019-03-21T20:45:05,688][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-mustache]
+[2019-03-21T20:45:05,689][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-painless]
+[2019-03-21T20:45:05,689][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [mapper-extras]
+[2019-03-21T20:45:05,689][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [parent-join]
+[2019-03-21T20:45:05,689][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [percolator]
+[2019-03-21T20:45:05,689][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [rank-eval]
+[2019-03-21T20:45:05,690][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [reindex]
+[2019-03-21T20:45:05,690][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [repository-url]
+[2019-03-21T20:45:05,691][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [transport-netty4]
+[2019-03-21T20:45:05,691][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [tribe]
+[2019-03-21T20:45:05,692][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ccr]
+[2019-03-21T20:45:05,692][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-core]
+[2019-03-21T20:45:05,693][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-deprecation]
+[2019-03-21T20:45:05,693][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-graph]
+[2019-03-21T20:45:05,693][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ilm]
+[2019-03-21T20:45:05,694][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-logstash]
+[2019-03-21T20:45:05,694][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ml]
+[2019-03-21T20:45:05,694][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-monitoring]
+[2019-03-21T20:45:05,695][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-rollup]
+[2019-03-21T20:45:05,695][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-security]
+[2019-03-21T20:45:05,696][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-sql]
+[2019-03-21T20:45:05,696][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-upgrade]
+[2019-03-21T20:45:05,696][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-watcher]
+[2019-03-21T20:45:05,700][INFO ][o.e.p.PluginsService     ] [IhcTduS] no plugins loaded
+[2019-03-21T20:45:09,205][INFO ][o.e.x.s.a.s.FileRolesStore] [IhcTduS] parsed [0] roles from file [C:\elasticsearch-6.6.2\config\roles.yml]
+[2019-03-21T20:45:09,775][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/10720] [Main.cc@109] controller (64 bit): Version 6.6.2 (Build 62531230b275d3) Copyright (c) 2019 Elasticsearch BV
+[2019-03-21T20:45:10,087][DEBUG][o.e.a.ActionModule       ] [IhcTduS] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-21T20:45:10,309][INFO ][o.e.d.DiscoveryModule    ] [IhcTduS] using discovery type [zen] and host providers [settings]
+[2019-03-21T20:45:10,838][INFO ][o.e.n.Node               ] [IhcTduS] initialized
+[2019-03-21T20:45:10,838][INFO ][o.e.n.Node               ] [IhcTduS] starting ...
+[2019-03-21T20:45:11,595][INFO ][o.e.t.TransportService   ] [IhcTduS] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-21T20:45:14,669][INFO ][o.e.c.s.MasterService    ] [IhcTduS] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{ZF_6pICqR0yt8zmm-_iGcQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-21T20:45:14,669][INFO ][o.e.c.s.ClusterApplierService] [IhcTduS] new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{ZF_6pICqR0yt8zmm-_iGcQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{ZF_6pICqR0yt8zmm-_iGcQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-21T20:45:15,104][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [IhcTduS] Failed to clear cache for realms [[]]
+[2019-03-21T20:45:15,136][INFO ][o.e.l.LicenseService     ] [IhcTduS] license [3dc21ed4-0d75-4129-9751-c4c44e55b6a7] mode [basic] - valid
+[2019-03-21T20:45:15,151][INFO ][o.e.g.GatewayService     ] [IhcTduS] recovered [1] indices into cluster_state
+[2019-03-21T20:45:15,151][INFO ][o.e.h.n.Netty4HttpServerTransport] [IhcTduS] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-21T20:45:15,151][INFO ][o.e.n.Node               ] [IhcTduS] started
+[2019-03-21T20:45:15,774][INFO ][o.e.c.r.a.AllocationService] [IhcTduS] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[twitter][4]] ...]).
+[2019-03-21T20:57:19,732][INFO ][o.e.b.Bootstrap          ] [IhcTduS] running graceful exit on windows
+[2019-03-21T20:57:19,732][INFO ][o.e.n.Node               ] [IhcTduS] stopping ...
+[2019-03-21T20:57:19,747][INFO ][o.e.x.w.WatcherService   ] [IhcTduS] stopping watch service, reason [shutdown initiated]
+[2019-03-21T20:57:20,018][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/10720] [Main.cc@148] Ml controller exiting
+[2019-03-21T20:57:20,018][INFO ][o.e.x.m.p.NativeController] [IhcTduS] Native controller process has stopped - no new native processes can be started
+[2019-03-21T20:57:20,049][INFO ][o.e.n.Node               ] [IhcTduS] stopped
+[2019-03-21T20:57:20,050][INFO ][o.e.n.Node               ] [IhcTduS] closing ...
+[2019-03-21T20:57:20,060][INFO ][o.e.n.Node               ] [IhcTduS] closed
+[2019-03-21T21:14:22,160][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] using [1] data paths, mounts [[(C:)]], net usable_space [132.1gb], net total_space [221.7gb], types [NTFS]
+[2019-03-21T21:14:22,163][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-03-21T21:14:22,210][INFO ][o.e.n.Node               ] [IhcTduS] node name derived from node ID [IhcTduSrSJKx1vvc-CmtrQ]; set [node.name] to override
+[2019-03-21T21:14:22,211][INFO ][o.e.n.Node               ] [IhcTduS] version[6.6.2], pid[5508], build[default/zip/3bd3e59/2019-03-06T15:16:26.864148Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12/12+33]
+[2019-03-21T21:14:22,212][INFO ][o.e.n.Node               ] [IhcTduS] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\elasticsearch-6.6.2, -Des.path.conf=C:\elasticsearch-6.6.2\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [aggs-matrix-stats]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [analysis-common]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [ingest-common]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-expression]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-mustache]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-painless]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [mapper-extras]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [parent-join]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [percolator]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [rank-eval]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [reindex]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [repository-url]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [transport-netty4]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [tribe]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ccr]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-core]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-deprecation]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-graph]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ilm]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-logstash]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ml]
+[2019-03-21T21:14:23,942][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-monitoring]
+[2019-03-21T21:14:23,958][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-rollup]
+[2019-03-21T21:14:23,958][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-security]
+[2019-03-21T21:14:23,958][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-sql]
+[2019-03-21T21:14:23,958][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-upgrade]
+[2019-03-21T21:14:23,958][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-watcher]
+[2019-03-21T21:14:23,958][INFO ][o.e.p.PluginsService     ] [IhcTduS] no plugins loaded
+[2019-03-21T21:14:27,828][INFO ][o.e.x.s.a.s.FileRolesStore] [IhcTduS] parsed [0] roles from file [C:\elasticsearch-6.6.2\config\roles.yml]
+[2019-03-21T21:14:28,307][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/4780] [Main.cc@109] controller (64 bit): Version 6.6.2 (Build 62531230b275d3) Copyright (c) 2019 Elasticsearch BV
+[2019-03-21T21:14:28,637][DEBUG][o.e.a.ActionModule       ] [IhcTduS] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-21T21:14:28,845][INFO ][o.e.d.DiscoveryModule    ] [IhcTduS] using discovery type [zen] and host providers [settings]
+[2019-03-21T21:14:29,412][INFO ][o.e.n.Node               ] [IhcTduS] initialized
+[2019-03-21T21:14:29,412][INFO ][o.e.n.Node               ] [IhcTduS] starting ...
+[2019-03-21T21:14:30,240][INFO ][o.e.t.TransportService   ] [IhcTduS] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-21T21:14:33,309][INFO ][o.e.c.s.MasterService    ] [IhcTduS] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{LKFiMZUoShiIYDL2SpPJMw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-21T21:14:33,314][INFO ][o.e.c.s.ClusterApplierService] [IhcTduS] new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{LKFiMZUoShiIYDL2SpPJMw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{LKFiMZUoShiIYDL2SpPJMw}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-21T21:14:33,779][INFO ][o.e.h.n.Netty4HttpServerTransport] [IhcTduS] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-21T21:14:33,779][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [IhcTduS] Failed to clear cache for realms [[]]
+[2019-03-21T21:14:33,779][INFO ][o.e.n.Node               ] [IhcTduS] started
+[2019-03-21T21:14:33,820][INFO ][o.e.l.LicenseService     ] [IhcTduS] license [3dc21ed4-0d75-4129-9751-c4c44e55b6a7] mode [basic] - valid
+[2019-03-21T21:14:33,821][INFO ][o.e.g.GatewayService     ] [IhcTduS] recovered [1] indices into cluster_state
+[2019-03-21T21:14:34,463][INFO ][o.e.c.r.a.AllocationService] [IhcTduS] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[twitter][0]] ...]).
+[2019-03-21T21:20:48,353][INFO ][o.e.c.m.MetaDataCreateIndexService] [IhcTduS] [twitter_index] creating index, cause [auto(bulk api)], templates [], shards [5]/[1], mappings []
+[2019-03-21T21:20:49,480][INFO ][o.e.c.m.MetaDataMappingService] [IhcTduS] [twitter_index/PcAXNxlySLOMj-ujaBFyWw] create_mapping [tweets]
+[2019-03-21T21:21:35,640][INFO ][o.e.b.Bootstrap          ] [IhcTduS] running graceful exit on windows
+[2019-03-21T21:21:35,641][INFO ][o.e.n.Node               ] [IhcTduS] stopping ...
+[2019-03-21T21:21:35,657][INFO ][o.e.x.w.WatcherService   ] [IhcTduS] stopping watch service, reason [shutdown initiated]
+[2019-03-21T21:21:35,720][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/4780] [Main.cc@148] Ml controller exiting
+[2019-03-21T21:21:35,721][INFO ][o.e.x.m.p.NativeController] [IhcTduS] Native controller process has stopped - no new native processes can be started
+[2019-03-21T21:21:37,118][INFO ][o.e.n.Node               ] [IhcTduS] stopped
+[2019-03-21T21:21:37,119][INFO ][o.e.n.Node               ] [IhcTduS] closing ...
+[2019-03-21T21:21:37,127][INFO ][o.e.n.Node               ] [IhcTduS] closed
+[2019-03-21T21:22:00,810][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] using [1] data paths, mounts [[(C:)]], net usable_space [132.1gb], net total_space [221.7gb], types [NTFS]
+[2019-03-21T21:22:00,813][INFO ][o.e.e.NodeEnvironment    ] [IhcTduS] heap size [989.8mb], compressed ordinary object pointers [true]
+[2019-03-21T21:22:00,889][INFO ][o.e.n.Node               ] [IhcTduS] node name derived from node ID [IhcTduSrSJKx1vvc-CmtrQ]; set [node.name] to override
+[2019-03-21T21:22:00,890][INFO ][o.e.n.Node               ] [IhcTduS] version[6.6.2], pid[13876], build[default/zip/3bd3e59/2019-03-06T15:16:26.864148Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/12/12+33]
+[2019-03-21T21:22:00,890][INFO ][o.e.n.Node               ] [IhcTduS] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Djava.locale.providers=COMPAT, -XX:UseAVX=2, -Delasticsearch, -Des.path.home=C:\elasticsearch-6.6.2, -Des.path.conf=C:\elasticsearch-6.6.2\config, -Des.distribution.flavor=default, -Des.distribution.type=zip]
+[2019-03-21T21:22:02,539][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [aggs-matrix-stats]
+[2019-03-21T21:22:02,539][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [analysis-common]
+[2019-03-21T21:22:02,539][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [ingest-common]
+[2019-03-21T21:22:02,540][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-expression]
+[2019-03-21T21:22:02,540][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-mustache]
+[2019-03-21T21:22:02,540][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [lang-painless]
+[2019-03-21T21:22:02,540][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [mapper-extras]
+[2019-03-21T21:22:02,541][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [parent-join]
+[2019-03-21T21:22:02,541][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [percolator]
+[2019-03-21T21:22:02,541][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [rank-eval]
+[2019-03-21T21:22:02,541][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [reindex]
+[2019-03-21T21:22:02,542][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [repository-url]
+[2019-03-21T21:22:02,542][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [transport-netty4]
+[2019-03-21T21:22:02,542][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [tribe]
+[2019-03-21T21:22:02,542][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ccr]
+[2019-03-21T21:22:02,543][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-core]
+[2019-03-21T21:22:02,543][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-deprecation]
+[2019-03-21T21:22:02,543][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-graph]
+[2019-03-21T21:22:02,544][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ilm]
+[2019-03-21T21:22:02,544][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-logstash]
+[2019-03-21T21:22:02,545][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-ml]
+[2019-03-21T21:22:02,545][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-monitoring]
+[2019-03-21T21:22:02,545][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-rollup]
+[2019-03-21T21:22:02,546][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-security]
+[2019-03-21T21:22:02,546][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-sql]
+[2019-03-21T21:22:02,546][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-upgrade]
+[2019-03-21T21:22:02,547][INFO ][o.e.p.PluginsService     ] [IhcTduS] loaded module [x-pack-watcher]
+[2019-03-21T21:22:02,548][INFO ][o.e.p.PluginsService     ] [IhcTduS] no plugins loaded
+[2019-03-21T21:22:05,960][INFO ][o.e.x.s.a.s.FileRolesStore] [IhcTduS] parsed [0] roles from file [C:\elasticsearch-6.6.2\config\roles.yml]
+[2019-03-21T21:22:06,555][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/13980] [Main.cc@109] controller (64 bit): Version 6.6.2 (Build 62531230b275d3) Copyright (c) 2019 Elasticsearch BV
+[2019-03-21T21:22:06,940][DEBUG][o.e.a.ActionModule       ] [IhcTduS] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2019-03-21T21:22:07,160][INFO ][o.e.d.DiscoveryModule    ] [IhcTduS] using discovery type [zen] and host providers [settings]
+[2019-03-21T21:22:07,784][INFO ][o.e.n.Node               ] [IhcTduS] initialized
+[2019-03-21T21:22:07,785][INFO ][o.e.n.Node               ] [IhcTduS] starting ...
+[2019-03-21T21:22:08,615][INFO ][o.e.t.TransportService   ] [IhcTduS] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-03-21T21:22:11,689][INFO ][o.e.c.s.MasterService    ] [IhcTduS] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{5RuFsCwpSTmrlXRpAl34sQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2019-03-21T21:22:11,695][INFO ][o.e.c.s.ClusterApplierService] [IhcTduS] new_master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{5RuFsCwpSTmrlXRpAl34sQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{5RuFsCwpSTmrlXRpAl34sQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2019-03-21T21:22:12,189][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [IhcTduS] Failed to clear cache for realms [[]]
+[2019-03-21T21:22:12,232][INFO ][o.e.l.LicenseService     ] [IhcTduS] license [3dc21ed4-0d75-4129-9751-c4c44e55b6a7] mode [basic] - valid
+[2019-03-21T21:22:12,244][INFO ][o.e.g.GatewayService     ] [IhcTduS] recovered [2] indices into cluster_state
+[2019-03-21T21:22:12,286][INFO ][o.e.h.n.Netty4HttpServerTransport] [IhcTduS] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-03-21T21:22:12,288][INFO ][o.e.n.Node               ] [IhcTduS] started
+[2019-03-21T21:22:13,462][INFO ][o.e.c.r.a.AllocationService] [IhcTduS] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[twitter][3]] ...]).
+[2019-03-21T21:23:52,583][INFO ][o.e.c.s.MasterService    ] [IhcTduS] zen-disco-node-join[{p2_43QM}{p2_43QMQRBueUfmUQuwblw}{iL-OXF9_RMey8KNuWsMD3g}{127.0.0.1}{127.0.0.1:9301}{ml.machine_memory=8523026432, ml.max_open_jobs=20, xpack.installed=true, ml.enabled=true}], reason: added {{p2_43QM}{p2_43QMQRBueUfmUQuwblw}{iL-OXF9_RMey8KNuWsMD3g}{127.0.0.1}{127.0.0.1:9301}{ml.machine_memory=8523026432, ml.max_open_jobs=20, xpack.installed=true, ml.enabled=true},}
+[2019-03-21T21:23:53,109][INFO ][o.e.c.s.ClusterApplierService] [IhcTduS] added {{p2_43QM}{p2_43QMQRBueUfmUQuwblw}{iL-OXF9_RMey8KNuWsMD3g}{127.0.0.1}{127.0.0.1:9301}{ml.machine_memory=8523026432, ml.max_open_jobs=20, xpack.installed=true, ml.enabled=true},}, reason: apply cluster state (from master [master {IhcTduS}{IhcTduSrSJKx1vvc-CmtrQ}{5RuFsCwpSTmrlXRpAl34sQ}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8523026432, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [10] source [zen-disco-node-join[{p2_43QM}{p2_43QMQRBueUfmUQuwblw}{iL-OXF9_RMey8KNuWsMD3g}{127.0.0.1}{127.0.0.1:9301}{ml.machine_memory=8523026432, ml.max_open_jobs=20, xpack.installed=true, ml.enabled=true}]]])
+[2019-03-21T21:23:53,116][WARN ][o.e.d.z.ElectMasterService] [IhcTduS] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2019-03-21T21:23:53,412][INFO ][o.e.g.LocalAllocateDangledIndices] [IhcTduS] auto importing dangled indices [[.kibana_1/RdNmRu2FTIyKO73ww8_SYw]/OPEN] from [{p2_43QM}{p2_43QMQRBueUfmUQuwblw}{iL-OXF9_RMey8KNuWsMD3g}{127.0.0.1}{127.0.0.1:9301}{ml.machine_memory=8523026432, ml.max_open_jobs=20, xpack.installed=true, ml.enabled=true}]
+[2019-03-21T21:23:53,418][INFO ][o.e.c.r.a.AllocationService] [IhcTduS] updating number_of_replicas to [1] for indices [.kibana_1]
+[2019-03-21T21:24:33,327][INFO ][o.e.b.Bootstrap          ] [IhcTduS] running graceful exit on windows
+[2019-03-21T21:24:33,328][INFO ][o.e.n.Node               ] [IhcTduS] stopping ...
+[2019-03-21T21:24:33,343][INFO ][o.e.x.w.WatcherService   ] [IhcTduS] stopping watch service, reason [shutdown initiated]
+[2019-03-21T21:24:33,562][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [IhcTduS] [controller/13980] [Main.cc@148] Ml controller exiting
+[2019-03-21T21:24:33,565][INFO ][o.e.x.m.p.NativeController] [IhcTduS] Native controller process has stopped - no new native processes can be started
+[2019-03-21T21:24:35,324][INFO ][o.e.n.Node               ] [IhcTduS] stopped
+[2019-03-21T21:24:35,324][INFO ][o.e.n.Node               ] [IhcTduS] closing ...
+[2019-03-21T21:24:35,332][INFO ][o.e.n.Node               ] [IhcTduS] closed

@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.linting.pylintEnabled": true
+    // "python.pythonPath": "E:\\msys64\\mingw64\\bin\\python3.7.exe"
+
+}
